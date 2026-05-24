@@ -160,3 +160,150 @@ body {
   button {
     cursor: pointer;
   }
+
+  /* DASHBOARD */
+
+.dashboard-page {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 32px;
+    color: #111827;
+  }
+  
+  .dashboard-header p {
+    color: #6b7280;
+    margin-top: 5px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-left: 5px solid #111827;
+  }
+  
+  .stat-card h3 {
+    font-size: 16px;
+    color: #6b7280;
+  }
+  
+  .stat-card h2 {
+    font-size: 34px;
+    margin: 10px 0;
+    color: #111827;
+  }
+  
+  .stat-card span {
+    color: #10b981;
+    font-size: 14px;
+  }
+  
+  .dashboard-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  
+  .dashboard-panel {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .panel-header {
+    margin-bottom: 20px;
+  }
+  
+  .panel-header h3 {
+    color: #111827;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .chart-bar span {
+    font-size: 14px;
+    color: #374151;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 14px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+  
+  .fill {
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .active {
+    background: #2563eb;
+  }
+  
+  .analysis {
+    background: #f59e0b;
+  }
+  
+  .closed {
+    background: #10b981;
+  }
+  
+  .alerts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .alert-item {
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .critical {
+    background: #dc2626;
+  }
+  
+  .warning {
+    background: #f59e0b;
+  }
+  
+  .success {
+    background: #10b981;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th {
+    background: #f3f4f6;
+    padding: 14px;
+    text-align: left;
+  }
+  
+  table td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+  }
