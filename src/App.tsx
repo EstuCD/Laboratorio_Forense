@@ -21,32 +21,25 @@ import './styles/global.css'
 
 export default function App() {
 
-  // Estado para controlar el login
   const [isLogged, setIsLogged] = useState(false)
 
-  // Si no ha iniciado sesión
   if (!isLogged) {
     return (
       <Login onLogin={() => setIsLogged(true)} />
     )
   }
 
-  // Sistema principal
   return (
-
     <BrowserRouter>
 
       <div className="app-container">
 
-        {/* Menú lateral */}
         <Sidebar />
 
         <div className="main-content">
 
-          {/* Barra superior */}
           <Header />
 
-          {/* Navegación entre páginas */}
           <Routes>
 
             <Route

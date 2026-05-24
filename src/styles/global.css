@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f3f4f6;
+  }
+  
+  .app-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background: #111827;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header input {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .page {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111827;
+  }
+  
+  .login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    display: grid;
+    gap: 15px;
+  }
+  
+  .login-header {
+    text-align: center;
+  }
+  
+  .login-box input {
+    padding: 12px;
+  }
+  
+  .login-box button {
+    padding: 12px;
+    background: #111827;
+    color: white;
+    border: none;
+  }
+  
+  .forgot-password {
+    text-align: center;
+  }
+  
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .analysis-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+  }
+  
+  .panel {
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .viewer {
+    min-height: 300px;
+  }
+  
+  .actions-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .report-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  .upload-box {
+    background: #f9fafb;
+    padding: 15px;
+    border: 1px dashed #9ca3af;
+  }
+  
+  .hash-box {
+    background: #f3f4f6;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  button {
+    cursor: pointer;
+  }
