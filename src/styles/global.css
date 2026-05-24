@@ -514,3 +514,26 @@
       width: 100%;
     }
   }
+
+  /* =========================
+   HEADER USER
+========================= */
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    color: #111827;
+  }
+  
+  .logout-btn {
+    background: #dc2626;
+  }
+  
+  .logout-btn:hover {
+    background: #b91c1c;
+  }
